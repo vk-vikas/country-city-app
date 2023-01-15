@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <h1>select your city</h1>
-      <div>
+      <div className="middlerow">
         {countries && (
           <select
             onChange={(e) => fetchCities(e.target.value)}
